@@ -1,0 +1,24 @@
+# Virtual environments & caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Helper generation scripts & intermediate files (keep only deliverables + notebook dependency)
+build_notebook.py
+generate_experiments.py
+generate_presentation.py
+generate_report_4pages.py
+requirements.txt
+Rapport_Projet4_Split_Merge_IRM_4pages.docx
+figures/*.png
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

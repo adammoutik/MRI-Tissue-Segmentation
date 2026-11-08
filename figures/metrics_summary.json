@@ -1,0 +1,313 @@
+{
+  "synthetic_phantom": {
+    "num_leaves": 5197,
+    "num_merged_regions": 1057,
+    "compression_ratio": 4.92,
+    "split_time_ms": 279.66,
+    "merge_time_ms": 83.57,
+    "metrics_raw_otsu": {
+      "Dice_Background": 0.9894,
+      "IoU_Background": 0.9789,
+      "Dice_CSF": 0.9494,
+      "IoU_CSF": 0.9037,
+      "Dice_GrayMatter": 0.9788,
+      "IoU_GrayMatter": 0.9584,
+      "Dice_WhiteMatter": 0.9903,
+      "IoU_WhiteMatter": 0.9808,
+      "Dice_Lesion": 0.9917,
+      "IoU_Lesion": 0.9835,
+      "Macro_Dice": 0.9775,
+      "Macro_IoU": 0.9566,
+      "PSNR": 32.1156,
+      "SSIM": 0.7357
+    },
+    "metrics_after_split": {
+      "Dice_Background": 0.995,
+      "IoU_Background": 0.9901,
+      "Dice_CSF": 0.9122,
+      "IoU_CSF": 0.8385,
+      "Dice_GrayMatter": 0.8789,
+      "IoU_GrayMatter": 0.784,
+      "Dice_WhiteMatter": 0.9606,
+      "IoU_WhiteMatter": 0.9242,
+      "Dice_Lesion": 0.9742,
+      "IoU_Lesion": 0.9496,
+      "Macro_Dice": 0.9315,
+      "Macro_IoU": 0.8741,
+      "PSNR": 29.9616,
+      "SSIM": 0.9211
+    },
+    "metrics_after_merge": {
+      "Dice_Background": 0.9952,
+      "IoU_Background": 0.9905,
+      "Dice_CSF": 0.9133,
+      "IoU_CSF": 0.8405,
+      "Dice_GrayMatter": 0.8796,
+      "IoU_GrayMatter": 0.785,
+      "Dice_WhiteMatter": 0.9605,
+      "IoU_WhiteMatter": 0.924,
+      "Dice_Lesion": 0.9724,
+      "IoU_Lesion": 0.9463,
+      "Macro_Dice": 0.9315,
+      "Macro_IoU": 0.874,
+      "PSNR": 29.9508,
+      "SSIM": 0.9325
+    }
+  },
+  "real_mri_slices": {
+    "slice_3": {
+      "num_leaves": 2641,
+      "num_merged": 931,
+      "Macro_Dice": 0.8454,
+      "Dice_CSF": 0.9702,
+      "Dice_GM": 0.6543,
+      "Dice_WM": 0.9116,
+      "PSNR": 30.23,
+      "SSIM": 0.9175
+    },
+    "slice_5": {
+      "num_leaves": 2650,
+      "num_merged": 922,
+      "Macro_Dice": 0.8382,
+      "Dice_CSF": 0.9669,
+      "Dice_GM": 0.6471,
+      "Dice_WM": 0.9007,
+      "PSNR": 30.1,
+      "SSIM": 0.9027
+    },
+    "slice_7": {
+      "num_leaves": 2689,
+      "num_merged": 873,
+      "Macro_Dice": 0.822,
+      "Dice_CSF": 0.9579,
+      "Dice_GM": 0.6043,
+      "Dice_WM": 0.9038,
+      "PSNR": 29.98,
+      "SSIM": 0.9091
+    }
+  },
+  "threshold_sensitivity": {
+    "split_thresholds": [
+      0.02,
+      0.03,
+      0.042,
+      0.055,
+      0.075,
+      0.1
+    ],
+    "merge_thresholds": [
+      0.025,
+      0.04,
+      0.052,
+      0.07,
+      0.095,
+      0.12
+    ],
+    "leaves_per_split": [
+      14779,
+      8803,
+      5197,
+      3961,
+      3457,
+      2959
+    ],
+    "best_split_threshold": 0.02,
+    "best_merge_threshold": 0.095,
+    "best_macro_dice_pct": 93.26,
+    "dice_grid_pct": [
+      [
+        93.15,
+        93.15,
+        93.15,
+        93.15,
+        93.26,
+        93.14
+      ],
+      [
+        93.15,
+        93.15,
+        93.15,
+        93.14,
+        93.26,
+        93.14
+      ],
+      [
+        93.15,
+        93.15,
+        93.15,
+        93.14,
+        93.25,
+        93.16
+      ],
+      [
+        93.16,
+        93.16,
+        93.13,
+        93.14,
+        93.25,
+        93.17
+      ],
+      [
+        92.7,
+        92.7,
+        92.71,
+        92.68,
+        92.82,
+        92.79
+      ],
+      [
+        90.68,
+        90.68,
+        90.68,
+        90.79,
+        90.83,
+        90.73
+      ]
+    ],
+    "regions_grid": [
+      [
+        1857,
+        1247,
+        1055,
+        797,
+        513,
+        400
+      ],
+      [
+        1788,
+        1247,
+        1056,
+        798,
+        513,
+        400
+      ],
+      [
+        1667,
+        1253,
+        1057,
+        799,
+        513,
+        400
+      ],
+      [
+        1573,
+        1226,
+        1051,
+        799,
+        514,
+        400
+      ],
+      [
+        1477,
+        1136,
+        1004,
+        784,
+        516,
+        397
+      ],
+      [
+        1374,
+        1025,
+        912,
+        752,
+        520,
+        408
+      ]
+    ]
+  },
+  "robustness": {
+    "noise_sigma": [
+      0.0,
+      0.015,
+      0.03,
+      0.045,
+      0.06,
+      0.08
+    ],
+    "dice_split_merge_noise": [
+      93.03,
+      93.05,
+      93.09,
+      93.07,
+      92.89,
+      73.12
+    ],
+    "dice_split_only_noise": [
+      93.07,
+      93.1,
+      93.09,
+      92.94,
+      91.04,
+      70.29
+    ],
+    "dice_pixel_otsu_noise": [
+      99.36,
+      99.07,
+      95.37,
+      68.15,
+      57.15,
+      46.95
+    ],
+    "psnr_split_merge_noise": [
+      30.41,
+      30.35,
+      29.67,
+      28.15,
+      26.3,
+      23.82
+    ],
+    "bias_levels": [
+      0.0,
+      0.05,
+      0.1,
+      0.15,
+      0.2,
+      0.25
+    ],
+    "dice_split_merge_bias": [
+      93.18,
+      93.17,
+      93.07,
+      93.06,
+      92.9,
+      92.84
+    ],
+    "dice_pixel_otsu_bias": [
+      88.35,
+      90.23,
+      90.8,
+      89.54,
+      87.12,
+      82.21
+    ]
+  },
+  "predicate_comparison": {
+    "std": {
+      "num_leaves": 3571,
+      "num_merged": 1015,
+      "Macro_Dice": 92.95,
+      "Dice_GM_LowContrast": 87.78,
+      "Dice_WM": 96.03,
+      "Dice_Lesion_HighContrast": 96.89,
+      "PSNR": 29.29
+    },
+    "range": {
+      "num_leaves": 6802,
+      "num_merged": 1056,
+      "Macro_Dice": 93.15,
+      "Dice_GM_LowContrast": 87.96,
+      "Dice_WM": 96.05,
+      "Dice_Lesion_HighContrast": 97.24,
+      "PSNR": 29.95
+    },
+    "hybrid": {
+      "num_leaves": 5197,
+      "num_merged": 1057,
+      "Macro_Dice": 93.15,
+      "Dice_GM_LowContrast": 87.96,
+      "Dice_WM": 96.05,
+      "Dice_Lesion_HighContrast": 97.24,
+      "PSNR": 29.95
+    }
+  }
+}
